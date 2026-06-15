@@ -9,3 +9,4 @@ build/
 dist/
 .DS_Store
 build_notebooks.py
+data/benchmark/records.jsonl
