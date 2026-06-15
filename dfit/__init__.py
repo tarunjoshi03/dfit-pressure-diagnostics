@@ -72,4 +72,12 @@ __all__ = [
     # fracdesign
     "fracture_design_from_dfit", "design_summary", "FractureDesignParams",
     "__version__",
+    # probabilistic
+    "probabilistic_classify", "ProbabilisticResult",
+    # benchmark
+    "generate_benchmark", "benchmark_to_dataframe", "save_benchmark",
+    "load_benchmark", "BenchmarkRecord",
 ]
+
+from .probabilistic import probabilistic_classify, ProbabilisticResult
+from .benchmark import generate_benchmark, benchmark_to_dataframe, save_benchmark, load_benchmark, BenchmarkRecord
